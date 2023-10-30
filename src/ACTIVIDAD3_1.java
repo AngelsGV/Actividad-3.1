@@ -18,9 +18,10 @@ public class ACTIVIDAD3_1 {
                 eMinima = edad;
             }
         }
-        if (eMaxima == Integer.MIN_VALUE && eMinima == Integer.MAX_VALUE) { // Las edades validas son apartir de 0
+        if (eMaxima == Integer.MIN_VALUE && eMinima == Integer.MAX_VALUE) {
+            // Deben haber edades de más del valor maximo y mínimo para ser valido.
             System.out.println("No se ingresaron edades.");
-        } else {
+        } else { // Si cumple, mostraremos las edades máximas y minimas
             System.out.println("La edad máxima es: " + eMaxima);
             System.out.println("La edad mínima es: " + eMinima);
         }
